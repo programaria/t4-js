@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="trivia em JS" />
+		<title>trivia</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+<body>
+
+<header>
+<h1>TRIVIA</h1>
+<h2 id="prompt-nome"></h2>
+</header>
+
+<section class="perguntas">
+	<form id="formulario">
+
+		<div class="form-pergunta">
+			<label for="pergunta-um">Qual o nome do pato inimigo do Pernalonga?</label>
+			<input class="campo-form" id="pergunta-um" type="text" name="pergunta-um" placeholder="resposta aqui" />
+		</div>
+		<div class="form-pergunta">
+			<label for="pergunta-dois">Qual o nome da amiga do Chaves?</label>
+			<input class="campo-form" id="pergunta-dois" type="text" name="pergunta-dois" placeholder="resposta aqui" />
+		</div>
+		<div class="form-pergunta">
+			<label for="pergunta-tres">Qual a cor do cabelo da Ju?</label>
+			<input class="campo-form" id="pergunta-tres" type="text" name="pergunta-tres" placeholder="resposta aqui" />
+		</div>
+		<input class="btn-envio" id="btn-envio" type="submit" name="btn-envio" value="enviar" />
+
+	</form>
+	
+</section>
+
+<div class="area-resultados">
+	<div class="box-resultados">
+		<h2>resultados certos</h2>
+		<div class="box">	
+			<p id="resultados-certos" class="texto-resultado cor-certa"></p>
+		</div>
+	</div>
+	<div class="box-resultados">
+		<h2>resultados errados</h2>
+		<div class="box">
+			<p id="resultados-errados" class="texto-resultado cor-errada"></p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

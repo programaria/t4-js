@@ -1,0 +1,65 @@
+body {
+	font-family: "Trebuchet MS";
+	background-color: #ccc;
+	width: 100vw;
+}
+
+.perguntas {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.form-pergunta {
+	margin: 10px;
+}
+
+.campo-form {
+	padding-left: 10px;
+	width: 30%;
+	height: 20px;
+}
+
+.btn-envio {
+	width: 200px;
+	height: 30px;
+}
+
+h1, .box, .area-resultados {
+	text-align: center;
+}
+
+.area-resultados {
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.box-resultados {
+	width: 70%;
+}
+
+.box {
+	height: 70%;
+	border: solid 2px #000;
+	border-radius: 10px;
+	margin: 20px;
+	display: flex;
+	background-color: #fff;
+}
+
+.texto-resultado {
+	margin: auto;
+	font-size: 1.5em;
+}
+
+.cor-certa {
+	color: green;
+}
+
+.cor-errada {
+	color: red;
+}
