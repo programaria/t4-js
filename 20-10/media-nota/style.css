@@ -1,0 +1,75 @@
+body {
+  background-color: #e8e9ea;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: auto;
+}
+
+header {
+  width: 100vw;
+  line-height: 75px;
+  background-color: #0a3e72;
+  color: #fff;
+
+}
+
+header h1 {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+form {
+  width: 75vw;
+  margin: auto;
+}
+
+.formulario-alunas {
+  padding-top: 30px;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.campo {
+  width: 50%;
+  text-align: center;
+  height: 30px;
+  font-size: 1em;
+}
+
+.btn-submit {
+  width: 30vw;
+  height: 30px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  background-color: #002549;
+  cursor: pointer;
+}
+
+hr {
+  width: 75vw;
+  margin-top: 15px;
+}
+
+.div-media {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
