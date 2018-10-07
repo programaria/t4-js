@@ -1,3 +1,7 @@
+# CONTEÚDO DAS AULAS DE JS
+## Os slides estão no drive, em AULAS - T04
+
+
 ## aula 20/10 (sábado) 
 ## objetivos: básicos de lógica de programação e principais elementos da linguagem
 
